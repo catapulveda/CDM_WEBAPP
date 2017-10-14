@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/cdm">
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" maxIdle="4" maxTotal="8" name="jdbc/pooldb" password="cdm" removeAbandoned="true" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/CDM2" username="postgres"/>
+</Context>

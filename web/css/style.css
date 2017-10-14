@@ -1,0 +1,61 @@
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/roboto-condensed/RobotoCondensed-Regular.ttf);
+}
+
+body {
+    padding-top: 110px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 110px;
+    }
+}
+
+.fa-ul > li > i{
+    color: #467BC5;
+}
+
+#navIndex ul > li > a, 
+#navIndex li > div > a{
+    color: #000;
+    font-family: roboto;
+}
+
+#navIndex ul > li > a:hover, 
+#navIndex li > div.dropdown-menu > a:hover{
+    color: #fff;
+    background: #467BC5;
+    border-radius: 10px;
+}
+
+/*ESTILOS PARA EL FORMULARIO DE LOGIN EN LA PAGINA PRINCIPAL*/
+button:focus {
+    outline: 0;
+}
+
+.navbar .dropdown-menu .form-control {
+    width: 200px;
+}
+
+.bg-cdm{
+    background: #2A5087;
+}
+.radius{
+    border-radius: 7px;
+}
+.roboto{
+    font-family: roboto;
+}
+
+tr > th{
+    text-align: center;
+    font-family: roboto;
+}
+
+th, td{
+    white-space: nowrap;
+    font-size: 0.7em;
+    font-family: Arial;
+}
